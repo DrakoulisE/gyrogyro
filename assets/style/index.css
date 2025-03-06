@@ -34,6 +34,15 @@ header p{
     line-height: 0.9;
 }
 
+#logo_button{
+    background-color: transparent;
+    border: none;  
+    font-family: 'Courier New', Courier, monospace;
+}
+#logo_button:hover{
+    cursor: pointer;
+}
+
 #logo{
     align-self: center;
     justify-self: center;
