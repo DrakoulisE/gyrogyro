@@ -1,0 +1,33 @@
+.about{
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+}
+
+.about_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about_image{
+    width: 400px;
+    height: 550px;
+    background-image: url(../images/about.jpg);
+    background-size: cover;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.about_content{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.about_text{
+    align-self: center;
+    width: 50%;
+    color: white;
+    font-size: 1.5rem;
+    margin: 20px;
+}

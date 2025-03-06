@@ -8,7 +8,7 @@
 
 }
 
-.banner .container{
+.banner_container{
     height: 100%;
     width: 45%;
     display: flex;
@@ -21,14 +21,14 @@
     color: white;
     font-size: 3rem;
 }
-.banner .container h1{
+.banner_container h1{
     font-weight: 100;   
     margin-bottom: 20px;
     border-bottom: 2px solid white;
     border-top: 2px solid white;
 }
 
-.banner > .container > .box{
+.banner_container > .box{
     width: 80%;
 }
 
