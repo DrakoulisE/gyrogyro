@@ -2,6 +2,11 @@ html{
     font-size: 62.5%;
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
+    overflow-x: hidden;
+}
+
+button{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body{
@@ -94,4 +99,23 @@ header p{
     border-bottom: 2px solid white;
     padding: 10px;
     color: white;
+}
+
+#order{
+    background-color: rgb(18, 18, 18);
+    border: 1px solid rgba(95, 95, 95, 0.611);
+    transition: 0.2s;
+}
+
+#order:hover{
+    cursor: pointer;
+    background-color: rgba(60, 60, 60, 0.8);
+    background-color: brown;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+@media(max-width: 1200px){
+    .hidden{
+        display: none;
+    }
 }

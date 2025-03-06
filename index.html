@@ -11,27 +11,32 @@
 
     <body>
         <header>
-            <div class="button_box left">
+            <div class="button_box left hidden">
                 <button>Ποιοι είμαστε</button>
                 <button>Μενού</button>
             </div>
             <button id="logo_button">
                 <div id="logo">
-                <p>ΓΥΡΟ</p>
-                <p>ΓΥΡΟ</p>
-                <p id="oloi">-ΟΛΟΙ-</p>
-            </div>
+                    <p>ΓΥΡΟ</p>
+                    <p>ΓΥΡΟ</p>
+                    <p id="oloi">-ΟΛΟΙ-</p>
+                </div>
             </button>
 
-            <div class="button_box right">
-                <button>Παραγγελία</button>
+            <div class="button_box right hidden">
                 <button>Επικοινωνία</button>
+                <button id="order">Παραγγελία</button>
             </div>
         </header>
 
         <div class="banner">
             <div class="banner_container">
                 <div class="box">
+                    <div id="banner_logo">
+                        <p>ΓΥΡΟ</p>
+                        <p>ΓΥΡΟ</p>
+                        <p id="banner_oloi">-ΟΛΟΙ-</p>
+                    </div>
                     <h1>ΠΟΙΟΤΗΤΑ ΣΤΟΝ ΓΥΡΟ</h1>
                     <button>Παραγγελία online</button>
                 </div>
@@ -52,8 +57,12 @@
 
         <div class="about container">
             <h2>Ποιοι είμαστε</h2>
-            <div id="about_image"></div>
+            <div id="image_container">
+                <div id="about_image"></div>
+            </div>
             <div id="about_text">
+                <h3>ΑΠΟ ΤΟ 1940</h3>
+
                 <p>
                     Στο Γυρο Γυρο Ολοι, φέρνουμε τις αυθεντικές και λαχταριστές γεύσεις της Ελλάδας κατευθείαν στο πιάτο σας. 
                     Από ζουμερούς γύρους κομμένους φρέσκους από τη σούβλα μέχρι λαχταριστικά σουβλάκια και σπιτικό τζατζίκι, 
