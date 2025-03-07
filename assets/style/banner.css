@@ -69,7 +69,7 @@
 
 @media (max-width: 1200px){
     #banner_logo{
-        width: 40vh;
+        width: 30vh;
         border: 2px solid white;
     }
     
@@ -80,8 +80,8 @@
     }
 
     .box button{
-        width: 30vh;
-        height: 7vh;
-        font-size: 2.3vh;
+        width: 25vh;
+        height: 6vh;
+        font-size: 2vh;
     }
 }

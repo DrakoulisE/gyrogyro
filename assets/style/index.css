@@ -25,7 +25,8 @@ header{
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 1);
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: 90px;
     width: 100%;
     z-index: 1000;
@@ -51,6 +52,7 @@ footer p{
     font-size: 2rem;
     font-weight: 500;
     line-height: 0.9;
+    width: auto;
 }
 #footer1, #footer2{
     display: flex;
@@ -68,7 +70,7 @@ footer p{
 #logo_button{
     background-color: transparent;
     border: none; 
-    height: 90%; 
+    height: 100%; 
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -107,7 +109,14 @@ footer p{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px dashed rgba(165, 42, 42, 0.5);
+    border-bottom: 2px solid;
+    border-image: repeating-linear-gradient(
+        90deg, 
+        rgba(165, 42, 42, 0.5) 0px,   /* Dash color */
+        rgba(165, 42, 42, 0.5) 10px,  /* Dash length */
+        transparent 10px,             /* Start of gap */
+        transparent 20px              /* Gap length */
+    ) 10;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -139,7 +148,21 @@ footer p{
     .hidden{
         display: none;
     }
+    
     header{
         height: 10vh;
     }
+
+    footer{
+        height: 10vh;
+        display: block;
+    }
+    #border{
+        transform: rotate(90deg);
+    }
+    footer p{
+        font-size: 1.5vh;
+        text-align: center;
+    }
+
 }

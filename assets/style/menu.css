@@ -77,10 +77,16 @@
     }
 
     .menu_items button{
+        border: 5px solid rgba(0, 0, 0, 0.5);
         width: 85vw;
-        height: 19vh;
+        height: 20vh;
     }
+    .menu_items button:hover{
+        border: 5px solid rgb(255, 255, 255);
+    }
+
+
     .menu_items button>p{
-        font-size: 3vh;
+        font-size: 4vh;
     }
 }
