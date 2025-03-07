@@ -63,8 +63,9 @@
         flex-direction: column;
     }
     .about h2{
-        margin-bottom: 60px;
-        font-size: 3vh;
+        margin-top: 20px;
+        margin-bottom: 70px;
+        font-size: 4vh;
         width: 70%;
 
     }

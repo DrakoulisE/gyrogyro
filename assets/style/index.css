@@ -124,7 +124,7 @@ footer p{
 
 #order{
     background-color: rgb(18, 18, 18);
-    border: 1px solid rgba(95, 95, 95, 0.611);
+    border: 2px solid rgba(95, 95, 95, 0.611);
     transition: 0.2s;
 }
 
@@ -132,7 +132,7 @@ footer p{
     cursor: pointer;
     background-color: rgba(60, 60, 60, 0.8);
     background-color: brown;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.8);
 }
 
 @media(max-width: 1200px){
