@@ -39,6 +39,32 @@ header p{
     line-height: 0.9;
 }
 
+footer{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 0.9;
+}
+#footer1, #footer2{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 3px;
+}
+#border{
+    height: 70%;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
 #logo_button{
     background-color: transparent;
     border: none;  
@@ -88,6 +114,7 @@ header p{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px dashed rgba(165, 42, 42, 0.5);
 }
 
 .container h2{
