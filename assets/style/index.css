@@ -145,24 +145,55 @@ footer p{
 }
 
 @media(max-width: 1200px){
+    .container{
+        border-bottom: 4px solid;
+        border-image: repeating-linear-gradient(
+            90deg, 
+            rgba(165, 42, 42, 0.5) 0px,   /* Dash color */
+            rgba(165, 42, 42, 0.5) 10px,  /* Dash length */
+            transparent 10px,             /* Start of gap */
+            transparent 20px              /* Gap length */
+        ) 10;
+    }
+
     .hidden{
         display: none;
     }
     
     header{
         height: 10vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #logo_button{
+        grid-column: 2;
+        margin: 0px;
+        height: 10%;
     }
 
     footer{
         height: 10vh;
-        display: block;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
     #border{
-        transform: rotate(90deg);
+        width: 50%;
+        height: 3px;
+        background-color: rgba(255, 255, 255, 0.15);
     }
-    footer p{
+
+    #footer1, #footer2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+    }
+    #footer1 p, #footer2 p{
         font-size: 1.5vh;
-        text-align: center;
     }
 
 }

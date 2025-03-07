@@ -2,12 +2,15 @@
 
 <html lang="gr">
     <head>
+        <meta charset="UTF-8">
         <title>GyroGyro</title>
         <link rel="stylesheet" type="text/css" href="./assets/style/index.css">
         <link rel="stylesheet" type="text/css" href="./assets/style/banner.css">
         <link rel="stylesheet" type="text/css" href="./assets/style/menu.css">
         <link rel="stylesheet" type="text/css" href="./assets/style/about.css">
         <link rel="stylesheet" type="text/css" href="./assets/style/contact.css">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </head>
 
     <body>
@@ -25,6 +28,14 @@
                 <button>Επικοινωνία</button>
                 <button id="order">Παραγγελία</button>
             </div>
+
+            <div class="mobile_menu_button_container">
+                <button>
+                    <ion-icon class="mobile_menu_open" name="menu-sharp"></ion-icon>
+                    <ion-icon class="mobile_menu_close" name="close-sharp"></ion-icon>
+                </button>
+            </div>
+
         </header>
 
         <div class="banner">
@@ -77,7 +88,7 @@
         <footer>
             <div id="footer1">
                 <p>ΓΥΡΟ ΓΥΡΟ ΟΛΟΙ</p>
-                <p> by Vangelis Drakoulis</p>
+                <p>by Vangelis Drakoulis</p>
             </div>
             <div id="border"></div>
             <div id="footer2">
