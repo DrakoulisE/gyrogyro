@@ -67,24 +67,17 @@ footer p{
 
 #logo_button{
     background-color: transparent;
-    border: none;  
-    font-family: 'Courier New', Courier, monospace;
-}
-#logo_button:hover{
-    cursor: pointer;
-}
-
-#logo{
-    align-self: center;
-    justify-self: center;
-    text-align: center;
+    border: none; 
+    height: 90%; 
     margin-left: 50px;
     margin-right: 50px;
 }
+#logo_button img{
+    height: 100%;
+}
 
-#oloi{
-    font-size: 2.3rem;
-    color: rgb(165, 42, 42);
+#logo_button:hover{
+    cursor: pointer;
 }
 
 .button_box{
@@ -115,10 +108,11 @@ footer p{
     justify-content: center;
     align-items: center;
     border-bottom: 1px dashed rgba(165, 42, 42, 0.5);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .container h2{
-    margin-top: 50px;
     text-align: center;
     width: 300px;
     font-size: 3rem;
@@ -144,5 +138,14 @@ footer p{
 @media(max-width: 1200px){
     .hidden{
         display: none;
+    }
+    header{
+        height: 10vh;
+    }
+    #logo_button{
+        height: 90%;
+    }
+    #logo > p{
+        font-size: 3rem;
     }
 }
