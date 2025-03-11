@@ -144,6 +144,10 @@ footer p{
     border: 2px solid rgba(255, 255, 255, 0.8);
 }
 
+.mobile_menu_button_container{
+    display: none;
+}
+
 @media(max-width: 1200px){
     .container{
         border-bottom: 4px solid;
@@ -162,14 +166,15 @@ footer p{
     
     header{
         height: 10vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
     }
 
     #logo_button{
-        grid-column: 2;
-        margin: 0px;
-        height: 10%;
+        height: 100%;
+    }
+    .mobile_menu_button_container{
+        display: block;
+        position: absolute;
+        right: 2%;
     }
 
     footer{

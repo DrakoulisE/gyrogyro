@@ -7,6 +7,11 @@
     flex-direction: column;
 }
 
+#menu_target{
+    position: relative;
+    top: -130px;
+}
+
 .menu_items{
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;

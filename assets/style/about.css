@@ -8,6 +8,12 @@
     place-items: center;
 }
 
+#about_target{
+    grid-area: title;
+    position: relative;
+    top: -180px;
+}
+
 .about h2{
     grid-area: title;
 }
