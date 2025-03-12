@@ -86,10 +86,19 @@
     padding-left: 5%;
     padding-right: 5%;
 }
-#menu_expand{
+#portions_expand{
     display: none;
 }
-#expand_close{
+#sandwich_expand{
+    display: none;
+}
+#salads_expand{
+    display: none;
+}
+#more_expand{
+    display: none;
+}
+.expand_close{
     position: absolute;
     top: 2vh;
     right: 2vh;
