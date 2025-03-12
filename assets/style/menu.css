@@ -190,7 +190,7 @@
         top: -10px;
     }
 
-    #expand_close{
+    .expand_close{
         font-size: 3vh;
     }
 } 
