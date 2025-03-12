@@ -199,6 +199,8 @@ footer p{
         margin-top: 10vh;
         height: 50vh;
         width: 100vw;
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
         background-color: rgba(0, 0, 0, 0.8);
         border-bottom: 2px solid rgb(67, 67, 67);
         box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.5);
