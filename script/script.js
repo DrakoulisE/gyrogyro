@@ -47,6 +47,7 @@ nav_button_open.addEventListener("click" , () => {
     nav_menu.style.display = "flex";
     mobile_menu_open.style.display = "none";
     mobile_menu_close.style.display = "block";
+    expand_close_func();
 })
 
 const nav_button_close = document.getElementById("mobile_menu_close");
@@ -62,11 +63,24 @@ const menu_portions = document.getElementById("portions");
 const menu_expand = document.getElementById("menu_expand");
 
 menu_portions.addEventListener("click" , () => {
-    menu_expand.style.display = "block";    
+    menu_expand.style.display = "block";
+    setTimeout(() => {
+            menu_expand.style.visibility = "visible";
+            menu_expand.style.opacity = "1";
+    }, 10)
+
 })
+
+const expand_close_func = () => {
+    menu_expand.style.visibility = "hidden";
+    menu_expand.style.opacity = "0";  
+    setTimeout(() => {
+        menu_expand.style.display = "none";
+    }, 300)
+}
 
 const expand_close = document.getElementById("expand_close");
 
 expand_close.addEventListener("click" , () => {
-    menu_expand.style.display = "none";
+    expand_close_func();
 })
