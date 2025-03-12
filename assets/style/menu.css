@@ -54,6 +54,7 @@
     font-family: 'Courier New', Courier, monospace;
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
 }
 .menu_items button:hover{
     border: 5px solid rgb(255, 255, 255);
