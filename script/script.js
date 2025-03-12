@@ -57,3 +57,16 @@ nav_button_close.addEventListener("click" , () => {
     mobile_menu_open.style.display = "block";
     mobile_menu_close.style.display = "none";
 })
+
+const menu_portions = document.getElementById("portions");
+const menu_expand = document.getElementById("menu_expand");
+
+menu_portions.addEventListener("click" , () => {
+    menu_expand.style.display = "block";    
+})
+
+const expand_close = document.getElementById("expand_close");
+
+expand_close.addEventListener("click" , () => {
+    menu_expand.style.display = "none";
+})

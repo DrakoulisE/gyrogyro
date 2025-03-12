@@ -1,4 +1,5 @@
 .menu_container{
+    position: relative;
     width: auto;
     color: white;
     display: flex;
@@ -64,6 +65,65 @@
     color: black;
     background-color: white;
 }
+
+.expanded{
+    position: absolute;
+    top: 11.2vh;
+    z-index: 10;
+    width: 85%;
+    height: 66vh;
+    background-color: rgba(14, 14, 14, .8);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 70px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#menu_expand{
+    display: none;
+}
+#expand_close{
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+}
+.item_list > li{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, .0);
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+.item_name {
+    white-space: nowrap;
+}
+.dots{
+    border-bottom: 2px dotted rgba(255, 255, 255, 0.5);
+    flex-grow: 1;
+    position: relative;
+    top: -5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.item_price {
+    white-space: nowrap;
+    text-align: right;
+    flex-shrink: 0; 
+    font-weight: 600;
+    color: brown;
+}
+
+
+
 
 @media (max-width: 1200px){
     .menu_container{
